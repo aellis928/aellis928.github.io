@@ -1,0 +1,212 @@
+<html>
+<head>
+
+<title>Materialize CSS Framework Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- jQuery is required by Materialize to function -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+//custom JS code
+</script>
+
+<!-- <h4>Hi, I'm Aeriel!</h4>
+          <p id="bio">25 year old college graduate from The University of Texas at Austin.  Received my degree in Kinesiology, but soon decided that was not the career path for me!  Two years after graduation, I found myself at crossroads, and decided to pursue a career in Web Development.  My goal is to continue to learn new technologies and be a resourceful teammember in any company!
+          </p> -->
+
+
+
+<!-- <div class="card panel pink accent-2" id="left">
+          <h2>Before Coding...</h2>
+            <p>Before coding, I was a professional tennis coach.  I love teaching kids and creating a curriculum of sorts that would allow students to improve as for as their skill would take them</p>
+            <div class="divider"></div>
+            <p>As a new mom, my daughter became the reason why I woke up every day, to show her that as a woman, ANYTHING was possible, and that she too could do anything that she set her mind to</p>
+            <div class="divider"></div>
+            <p>However, I was in limbo.  I knew full and well that tennis was not my true destiny.  I needed to figure out what I was passionate about and take a leap of faith with it</p>
+        </div>
+      </div>
+      <div class="col s">
+        <div class="card panel pink accent-2" id="middle">
+          <h2>Welcome to the Dojo</h2>
+            <p>Ironically, it was one of my previous tennis instructors who introduced me to the idea of coding.  Mind you, I had very little knowledge about the internet, other than how to search google.  Fortunately, I spent some time on CodeAcademy (Javascript), and decided to take that leap of faith, and sign up for Coding Dojo</p>
+            <div class="divider"></div>
+            <p>For 14 weeks, I spent anywhere from 10-12 hours a day, 5-6 days a week coding.  It was rough! There were days that I wanted to quit, days that I wasn't so sure that I made the right decision to learn how to code.  Something in the back of my head told me otherwise, and that I should just keep pluggin along</p>
+            <div classs="divider"></div>
+            <p>On May 27th, 2016, it all paid off.  I graduated with two solid projects under my belt, and with the burning desire to learn more and do more</p> -->
+
+
+
+<!-- beginning of actual html -->
+
+
+<div class="container">
+  <div class="row">
+  <div class="col s3">
+    <img id="profpic" src="images/aeriel.jpg" class="z-depth-4 circle responsive-img">
+  </div>
+  <div class="col s8">
+    <div class="card pink accent-2" id="header">
+      <h3>Aeriel Ellis-Kawasaki</h3>
+      <h5>Full Stack Web Developer</h5>
+      <h5>San Ramon, CA</h5>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s4"><a href="#AboutMe" class="active">About Me</a></li>
+        <li class="tab col s4"><a href="#Projects">Projects</a></li>
+        <li class="tab col s4"><a href="#Contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div> 
+  
+  <div id="AboutMe">
+    <div class="row">
+      <div class="col s10 offset-s1"> 
+        <div class="card panel pink accent-2" id="one">
+          <h5> < Past > </h5>
+            <p>Before coding, I was submitting my applicationg to pharmacy school, hoping to medically make a difference in people's lives.  However, not too long after I sent out my application, I had some regret.  Something was missing, and I did not think I would find it with pharmacy</p> 
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s10 offset-s1">
+        <div class="card panel pink accent-2" id="two">
+            <h5> < Present > </h5>
+            <p>Out of the blue, I was introduced to coding by a colleague.  After learning some basics from CodeAcademy, I submerged myself into a full-on coding bootcamp and have yet to stop coding.  There is nothing better than being able to figure out ways to make applications run properly, knowing that it could possibly impact millions of people's lifes</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <div class="card panel pink accent-2">
+        <div id="education">
+          <h4> < Education > </h4>
+          <div class="divider"></div>
+            <h5>Coding Dojo '16</h6>           
+            <p>Languages: <span>Python, Ruby, Javascript</span></p>
+            <p>Databases: <span>Mysql, Postgres, MongoDB</span>
+            <p>Technologies: <span>Flask, Rails, Express.js, Node.js, Angular</span></p>
+            <p>Version Control: <span>Git/Github</span>
+            <p>TDD: <span>Rspec</span>
+          <div class="divider"></div>
+            <h5>University of Texas at Austin '14</h5>
+            <p>Major: <span>Health Promotions (Kinesiology)</span></p>
+            <p>Minors: <span>Educational Psychology, Biology, and Chemistry</span></p>
+            <p>Extra Curricular Activities: <span> Women's Tennis Scholarship Athlete</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Projects" class="col s12">
+    <div class="row">
+      <div class="col s6">      
+        <div class="card pink accent-2" id="Foodie">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/preferences.jpg" id="project1">
+          </div>
+          <div class="card-content pink accent-2">
+            <span class="card-title activator">Foodie<i class="material-icons right">more_vert</i></span>
+            <!-- stopped here -->
+            <p><a href="https://github.com/gratcliff/Python-Food-Registry">Click Here for the Code</a></p>
+          </div>
+          <div class="card-reveal pink accent-2">
+            <span class="card-title light blue-text text-accent-2">Foodie<i class="material-icons right">close</i></span>
+            <p>
+              This interactive web application allows users to select multiple food preferences and gain more knowledge about different dishes concerning their selections.  
+            </p>
+            <div class="technology">
+              <p><span>Language:</span>Python</p>
+              <p><span>Technologies:</span>MySql, Apache, HTML, CSS/Materialize, JQuery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s5">
+        <div class="card pink accent-2" id="TennisDraws">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/tennisdraw1.jpg" id="project2">
+          </div>
+          <div class="card-content pink accent-2">
+            <span class="card-title activator">TennisDraws<i class="material-icons right">
+            more_vert</i></span>
+            <p><a href="https://github.com/aellis928/tennisdraws.git">Click Here for the Code</a></p>
+          </div>
+          <div class="card-reveal pink accent-2">
+            <span class="card-title light blue-text text-accent-2">TennisDraws<i class="material-icons right">close</i></span>
+            <p> Tennis Draws is a Web applicatiion that creates bracket-style tournaments for the user to use for tennis tournaments.  A user can register, create a tournament and then create multiple draws for that specific tournament.  Once a tournament is created, users can be added to and removed from the draws and tournaments.  Lastly, a user can see the actual tournament draw that they created, and are able to input the winners for each round, along with displaying the score of the previous match-up
+            </p>
+            <div class="technology">
+              <p><span>Language:</span>Javascript</p>
+              <p><span>Technologies:</span>MongoDB, Node.JS, Angular.JS, HTML, CSS/Materialize</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">      
+        <div class="card pink accent-2" id="Calendme">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/calendme.jpeg" id="project1">
+          </div>
+          <div class="card-content pink accent-2">
+            <span class="card-title activator">CalendMe<i class="material-icons right">more_vert</i></span>
+            <!-- stopped here -->
+            <p><a href="https://github.com/aellis928/calendar">Click Here for the Code</a></p>
+          </div>
+          <div class="card-reveal pink accent-2">
+            <span class="card-title light blue-text text-accent-2">CalendMe<i class="material-icons right">close</i></span>
+            <p>
+                Calendar application that users can use to add/delete events to their day and send email notification if they choose to have an additional reminder
+            </p>
+            <div class="technology">
+              <p><span>Language:</span>Ruby</p>
+              <p><span>Technologies:</span>HTML, CSS, Ruby on Rails, RSpec, PostgreSQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+
+  <div id="Contact" class="col s12">
+    <div class="row">
+      <div class="col s10 offset-s1">
+        <div class="card pink accent-2">
+          <h3>Like What You See?</h3>
+          <h5>Get In Contact with Me!</h5>
+          <div class="divider"></div>
+          <div class="contact">
+            <p><i class="material-icons">phone</i> 510-303-3384<p>
+            <p><i class="material-icons">email</i>mskawasaki.90@gmail.com</p>
+            <p><i class="material-icons">code</i><a href="https://github.com/aellis928/">GitHub</a></p>
+            <p><i class="material-icons">web</i><a href="https://www.linkedin.com/in/aeriel-ellis-478762122">LinkedIn</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

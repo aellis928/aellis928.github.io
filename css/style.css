@@ -1,0 +1,83 @@
+html{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container{
+    background-image: url("../images/background.jpg");
+    padding-top: 20px;
+}
+
+#header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    padding-left:20px;
+}
+
+#profpic{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#AboutMe
+{
+    color:white;
+    overflow: scroll;
+    height:500px;
+}
+
+#left, #middle, #right{
+    text-align: center;
+}
+
+#AboutMe h5{
+    color:#40c4ff;
+    text-align: center;
+}
+
+#AboutMe span{
+    color:#e0e0e0;
+}
+
+#education{
+    text-align: center;
+}
+
+#one, #two{
+    text-align: center;
+}
+
+#Projects{
+    color:#ff4081;
+    text-align: center;
+    height:500px;
+    overflow: scroll;
+}
+
+#Projects{
+    color:white;
+}
+
+#Foodie{
+    margin-left: 30px;
+}
+
+#project1, #project2{
+    height:300px;
+}
+
+#Foodie, #TennisDraws{
+    width:400px;
+}
+
+#TennisDraws{
+    margin-left: 10px;
+}
+
+#Contact{
+    color:white;
+    text-align: center;
+}
+
